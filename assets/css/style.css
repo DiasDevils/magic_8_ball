@@ -40,3 +40,8 @@ button:hover {
     background-color: #ec871b;
 }
 
+#answer {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white;
+}
