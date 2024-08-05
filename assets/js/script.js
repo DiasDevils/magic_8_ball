@@ -16,7 +16,9 @@ document.getElementById('askButton').addEventListener('click', function() {
         "Your answer is : Big no",
         "Your answer is : Not a definite no",
         "Your answer is : Not a definite yes",
-        "Your answer is : Perhaps"
+        "Your answer is : Perhaps",
+        "Your answer is : You can count on it",
+        "Your answer is : You may rely on it"
     ];
 
     const randomIndex = Math.floor(Math.random() * answers.length);
