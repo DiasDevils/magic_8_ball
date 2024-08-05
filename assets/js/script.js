@@ -1,4 +1,5 @@
 document.getElementById('askButton').addEventListener('click', function() {
+
     const answers = [
         "Your answer is : Certainly yes",
         "Your answer is : Definitely no",
@@ -14,7 +15,8 @@ document.getElementById('askButton').addEventListener('click', function() {
         "Your answer is : Big yes",
         "Your answer is : Big no",
         "Your answer is : Not a definite no",
-        "Your answer is : Not a definite yes"
+        "Your answer is : Not a definite yes",
+        "Your answer is : Perhaps"
     ];
 
     const randomIndex = Math.floor(Math.random() * answers.length);
