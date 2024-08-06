@@ -32,9 +32,9 @@ body {
     font-family: Arial, sans-serif;
     /* background-color: #024045; */
     background-image: url('../images/smiley/crystalball5.jpg');
-    background-size: cover; /* Make sure the image covers the entire background */
+    background-size: cover; 
     background-position: center; /* Center the background image */
-    background-repeat: repeat ; /*no-repeat; /* Prevent the image from repeating */
+    background-repeat: no-repeat ; /*no-repeat; /* Prevent the image from repeating */
     background-attachment: fixed; /* Fix the background image so it doesn't scroll with the page */
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ body {
     height: 100vh;
     margin: 0;
     color: white;
-    background-size: 50%; 
+    /*background-size: 100%; */
 }
 
 
@@ -83,7 +83,7 @@ button:hover {
     font-size: 1.2em;
     color: white;
     background-color: rgb(13, 2, 74);
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px;
     display: inline-block; 
-    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    border-radius: 5px; 
 }
