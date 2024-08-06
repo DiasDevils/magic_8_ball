@@ -1,28 +1,63 @@
-document.getElementById('askButton').addEventListener('click', function() {
+// document.getElementById('askButton').addEventListener('click', function() {
 
-    const answers = [
-        "Your answer is : Certainly yes",
-        "Your answer is : Definitely no",
-        "Your answer is : Maybe",
-        "Your answer is : It's likely",
-        "Your answer is : It's very possible",
-        "Your answer is : Not right now",
-        "Your answer is : Yes but later",
-        "Your answer is : For now yes",
-        "Your answer is : Yes, but in future",
-        "Your answer is : Not likely",
-        "Your answer is : Sorry not really",
-        "Your answer is : Big yes",
-        "Your answer is : Big no",
-        "Your answer is : Not a definite no",
-        "Your answer is : Not a definite yes",
-        "Your answer is : Perhaps",
-        "Your answer is : You can count on it",
-        "Your answer is : You may rely on it"
-    ];
+//     const answers = [
+//         "Your answer is : Certainly yes",
+//         "Your answer is : Definitely no",
+//         "Your answer is : Maybe",
+//         "Your answer is : It's likely",
+//         "Your answer is : It's very possible",
+//         "Your answer is : Not right now",
+//         "Your answer is : Yes but later",
+//         "Your answer is : For now yes",
+//         "Your answer is : Yes, but in future",
+//         "Your answer is : Not likely",
+//         "Your answer is : Sorry not really",
+//         "Your answer is : Big yes",
+//         "Your answer is : Big no",
+//         "Your answer is : Not a definite no",
+//         "Your answer is : Not a definite yes",
+//         "Your answer is : Perhaps",
+//         "Your answer is : You can count on it",
+//         "Your answer is : You may rely on it"
+//     ];
 
-    const randomIndex = Math.floor(Math.random() * answers.length);
-    const answer = answers[randomIndex];
+//     const randomIndex = Math.floor(Math.random() * answers.length);
+//     const answer = answers[randomIndex];
     
-    document.getElementById('answer').textContent = answer;
+//     document.getElementById('answer').textContent = answer;
+// });
+
+
+
+
+document.getElementById('askButton').addEventListener('click', function() {
+    const questionInput = document.getElementById('question').value.trim();
+    const answerElement = document.getElementById('answer');
+
+    if (questionInput === "") {
+        answerElement.textContent = "Ask your question to receive an answer !!!";
+    } else {
+        const answers = [
+            "Your answer is: Certainly yes",
+            "Your answer is: Definitely no",
+            "Your answer is: Maybe",
+            "Your answer is: It's likely",
+            "Your answer is: It's very possible",
+            "Your answer is: Not right now",
+            "Your answer is: Yes but later",
+            "Your answer is: For now yes",
+            "Your answer is: Yes, but in the future",
+            "Your answer is: Not likely",
+            "Your answer is: Sorry not really",
+            "Your answer is: Big yes",
+            "Your answer is: Big no",
+            "Your answer is: Not a definite no",
+            "Your answer is: Not a definite yes"
+        ];
+
+        const randomIndex = Math.floor(Math.random() * answers.length);
+        const answer = answers[randomIndex];
+
+        answerElement.textContent = answer;
+    }
 });
