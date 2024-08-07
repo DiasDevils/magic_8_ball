@@ -1,3 +1,3 @@
 # Magic_8_ball Game
-link to deployment https://diasdevils.github.io/magic_8_ball/
+<b> Link to deployed game <b>: https://diasdevils.github.io/magic_8_ball/
 
