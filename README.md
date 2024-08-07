@@ -27,7 +27,7 @@ It serves the purpose of entertainment.
 ![Notepad Size](assets/images/Question_Computer.jpg)
 
 ## Look in Mobile Size
-
+![Mobile Size](assets/images/Mobile_Size.jpg)
 # Testing
 No testing has been done yet.
 
