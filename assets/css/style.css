@@ -3,9 +3,9 @@ body {
     /* background-color: #024045; */
     background-image: url('../images/smiley/crystalball5.jpg');
     background-size: cover; 
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat ; /*no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Fix the background image so it doesn't scroll with the page */
+    background-position: center; 
+    background-repeat: no-repeat ; 
+    background-attachment: fixed; /* FIXED = doesn't scroll with the page */
     display: flex;
     justify-content: center;
     align-items: center;
