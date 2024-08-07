@@ -9,10 +9,10 @@ const nameButton = document.getElementById('nameButton');
 
 /* getting the error and username */
 const nameError = document.getElementById('nameError');
-const nameInput = document.getElementById('name');
+const nameInput = document.getElementById('username');
 
 /* declaring the var to store username */
-let name;
+let username;
 
 welcomeButton.addEventListener('click', function () {
     welcomeContainer.classList.add('hide');
@@ -23,6 +23,7 @@ nameButton.addEventListener('click', function () {
     nameError.classList.add('hide');
 
     if (nameInput.value != '') {
+        username = nameInput.value;
         nameContainer.classList.add('hide');
         gameContainer.classList.remove('hide');
     } else {
@@ -42,21 +43,21 @@ document.getElementById('askButton').addEventListener('click', function () {
         smileyElement.style.display = "inline";
     } else {
         const answers = [
-            "Your answer is: Oh honey, absolutely yes!",
-            "Your answer is: No way, darling!",
-            "Your answer is: Maybe, if you're lucky.",
-            "Your answer is: Most likely, sweetheart.",
-            "Your answer is: It's very possible, my dear.",
-            "Your answer is: Not right now, love.",
-            "Your answer is: Yes, but later, patience is key.",
-            "Your answer is: For now, yes. Keep it cool.",
-            "Your answer is: Yes, but you'll have to wait, sugar.",
-            "Your answer is: Not likely, better luck next time.",
-            "Your answer is: Sorry, not really. Try again.",
-            "Your answer is: Big yes! Go for it, superstar!",
-            "Your answer is: Big no, darling. Move on.",
-            "Your answer is: Not a definite no, but close.",
-            "Your answer is: Not a definite yes, but you're close."
+            `Oh ${username}, absolutely yes!`,
+            `No way, ${username}!`,
+            `Maybe, if you're lucky ${username}!`,
+            `Most likely ${username}!`,
+            `It's very possible my dear ${username}!`,
+            `Not right now ${username} bear!`,
+            `Yes, but later, patience is key dear ${username}!`,
+            `For now, yes. Keep it cool. Ice ice cool ${username}!`,
+            `Yes, but you'll have to wait ${username} bear!`,
+            `Not likely, better luck next time ${username} honey!`,
+            `Sorry, not really. Try again ${username}!`,
+            `Big yes! Go for it superstar ${username}!`,
+            `Big no darling ${username}. Move on!`,
+            `Not a definite no, but close ${username}!`,
+            `Not a definite yes, but you're close ${username}!`
         ];
 
         const randomIndex = Math.floor(Math.random() * answers.length);
