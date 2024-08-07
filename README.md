@@ -35,4 +35,4 @@ The other bug was encounterd when i was trying to hide the sections so that it w
 
 ## Huge thank you to my Jedi mentor Richard Wells.
 Code ideas and suggestions by Richard Wells, particularly Welcome and Username Sections.
-Open source code googling.
+Also, other sections of code were open source code googling.
