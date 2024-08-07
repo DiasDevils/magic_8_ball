@@ -56,3 +56,11 @@ button:hover {
     display: inline-block; 
     border-radius: 5px; 
 }
+
+.hide {
+    display: none;
+}
+
+p {
+    font-weight: bolder;
+}
