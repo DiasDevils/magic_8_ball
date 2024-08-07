@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Heading -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description"
         content="Magic 8 ball game. Timepass game online. Silly game to receive yes no answers to questions. Fortune telling game.">
     <meta name="keywords"
         content="yes no answers, tarot, fortune telling game, tarot yes no, magic 8 ball game, magic eight ball game, yes no answers">
 
-
     <title>Magic 8 Ball Game</title>
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="images" href="assets/images/smiley/crystalball.jpg">
     <!-- https://icons8.com/icons/set/eight-ball-->
     <link rel="icon" type="image/png" href="icons8-eight-ball-24.png">
+
 </head>
 
+<!-- Main game -->
 <body>
     <div class="container">
         <h1>Ask the Magic 8 Ball</h1>
-
+<!-- Question box -->
         <input type="text" id="question" placeholder="Type your question here...">
+<!-- Question botton -->        
         <button id="askButton">Ask</button>
-
+<!-- Answer box -->  
         <div id="answer">
             <span id="answerText"></span>
             <!-- https://favicon.io/emoji-favicons/winking-face/-->
             <img id="smiley" src="assets/images/smiley/favicon.ico" alt="Smiley Face"
                 style="display:none; width:24px; height:24px; vertical-align:middle;">
-
         </div>
     </div>
 
     <script src="assets/js/script.js"></script>
 </body>
-
 </html>
