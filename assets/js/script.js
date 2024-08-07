@@ -14,10 +14,25 @@ const nameInput = document.getElementById('name');
 /* declaring the var to store username */
 let name;
 
+welcomeButton.addEventListener('click', function () {
+    welcomeContainer.classList.add('hide');
+    nameContainer.classList.remove('hide');
+});
+
+nameButton.addEventListener('click', function () {
+    nameError.classList.add('hide');
+
+    if (nameInput.value != '') {
+        nameContainer.classList.add('hide');
+        gameContainer.classList.remove('hide');
+    } else {
+        nameError.classList.remove('hide');
+    }
+})
 
 
 /* game function */
-document.getElementById('askButton').addEventListener('click', function() {
+document.getElementById('askButton').addEventListener('click', function () {
     const questionInput = document.getElementById('question').value.trim();
     const answerElement = document.getElementById('answerText');
     const smileyElement = document.getElementById('smiley');
