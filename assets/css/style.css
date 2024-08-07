@@ -1,33 +1,3 @@
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #024045;
-    background-image: url('assets/images/smiley/crystalball.jpg');
-    background-size: cover; /* Make sure the image covers the entire background */
-   /*  background-position: center; /* Center the background image */
-   /*  background-repeat: no-repeat; /* Prevent the image from repeating */
-   /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: white;
-} */
-
-/* body {
-    font-family: Arial, sans-serif;
-    /* background-color: #024045; */
-   /*  background-image: url('../images/smiley/crystalball.jpg');
-    background-size: cover; /* Make sure the image covers the entire background */
-   /*  background-position: center; /* Center the background image */
-   /*  background-repeat: no-repeat; /* Prevent the image from repeating */
-   /*  display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: white;
-} */
-
 body {
     font-family: Arial, sans-serif;
     /* background-color: #024045; */
@@ -42,9 +12,7 @@ body {
     height: 100vh;
     margin: 0;
     color: white;
-    /*background-size: 100%; */
 }
-
 
 .container {
     text-align: center;
@@ -53,6 +21,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
+
 h1 {
     margin-bottom: 40px;
 }
