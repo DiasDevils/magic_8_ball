@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- Heading -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,21 +13,35 @@
 
     <title>Magic 8 Ball Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- <link rel="images" href="assets/images/smiley/crystalball.jpg"> -->
-    <!-- https://icons8.com/icons/set/eight-ball-->
     <link rel="icon" type="image/png" href="icons8-eight-ball-24.png">
 
 </head>
 
-<!-- Main game -->
+
 <body>
-    <div class="container">
+    <!--Welcome Instructions-->
+    <div id="welcomeContainer" class="container hide">
+        <h1>Welcome to the Magic 8 Ball Game!!!</h1>
+        <h3>Instructions</h3>
+        <p>Think of a question you want a Yes or No answer to.</p>
+        <p>Ask the question by writing it in the box provided.</p>
+        <p>Click the ask button.</p>
+        <p>And Voila. Presto. Eazey Peazey Lemon Squeezey</p>
+        <button id="welcomeButton">Next</button>
+    </div>
+
+    <!--Getting user name for personalisation-->
+    <div id="nameContainer" class="container hide">
+        <input type="text" id="name" placeholder="How should I call you...?">
+        <p id="nameError" class="hide">Jeezzz... give me at least a fake name...</p>
+        <button id="nameButton">Next</button>
+    </div>
+
+    <!-- Main game -->
+    <div id="gameContainer" class="container hide">
         <h1>Ask the Magic 8 Ball</h1>
-<!-- Question box -->
         <input type="text" id="question" placeholder="Type your question here...">
-<!-- Question botton -->        
         <button id="askButton">Ask</button>
-<!-- Answer box -->  
         <div id="answer">
             <span id="answerText"></span>
             <!-- https://favicon.io/emoji-favicons/winking-face/-->
@@ -37,4 +52,5 @@
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
