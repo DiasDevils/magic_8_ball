@@ -18,6 +18,13 @@ the game for a more warm experience.
 Lastly, the game secion gives cute sassy answers by referencing the user name.
 It serves the purpose of entertainment.
 
+## Look in Computer Size
+![Computer Size](assets/images/Weclome_Computer.jpg)
+![Computer Size](assets/images/Username_Computer.jpg)
+![Computer Size](assets/images/Question_Computer.jpg)
+
+## Look in Notepad Size
+
 # Testing
 No testing has been done yet.
 
