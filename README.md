@@ -9,10 +9,15 @@ It is there as a passtime game to ask a yes or no question and receive a yes or 
 
 # Features
 1. It has a weclome section.
+<br>
 The welcome section gives insturctions in case someone is unfamiliar with the Magic 8 ball game. Then once the user presses the next button it moves along to the next section. 
+<br>
 2. An input name section.
+<br>
 This section asks the user to input their name. This feature makes the game more personalised for a more warm experience.
+<br>
 3. And lastly the game section.
+<br>
 The game secion gives cute sassy answers by referencing the user name.
 It serves the purpose of entertainment.
 
