@@ -28,6 +28,9 @@ It validates when the user inputs a question. If no question is written in the b
 ![Feature Three](assets/images/featureThree.jpg)
 
 ## Look in Computer Size
+
+Since the game actually looked ok on all devices when resizing no media queries were needed.
+
 ![Computer Size](assets/images/Weclome_Computer.jpg)
 ![Computer Size](assets/images/Username_Computer.jpg)
 ![Computer Size](assets/images/Question_Computer.jpg)
@@ -37,8 +40,14 @@ It validates when the user inputs a question. If no question is written in the b
 
 ## Look in Mobile Size
 ![Mobile Size](assets/images/Mobile_Size.jpg)
+
 # Testing
-No testing has been done yet.
+
+The testing of HTML has been done using the validator.
+![Validation HTML](assets/images/Val1.png)
+
+The testing of CSS has also been done using the validator.
+![Validation CSS](assets/images/Val2.png)
 
 # Bugs
 There were several bugs.
