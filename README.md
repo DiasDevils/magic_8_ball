@@ -71,5 +71,5 @@ The other bug was encounterd when i was trying to hide the sections so that it w
 
 
 ## Huge thank you to my Jedi mentor Richard Wells.
-Enhancmenet ideas and code suggestions by Richard Wells, particularly thankful for the guidance in the Welcome and Username Sections.
+Enhancement ideas and code suggestions by Richard Wells, particularly thankful for the guidance in the Welcome and Username Sections.
 Other sections of code come from open source or code how to googling.
