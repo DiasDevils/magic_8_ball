@@ -16,14 +16,14 @@ The welcome section gives insturctions in case someone is unfamiliar with the Ma
 
 2. An input name section.
 
-This second section asks the user to input their name. This feature makes the game more personalised for a warmer experience.
+This second section asks the user to input their name. This feature makes the game more personalised for a warmer experience. It also validates there is a name provided so it does expect a user input.
 
 ![Feature Two](assets/images/featureTwo.jpg)
 
 3. And lastly the game section.
 
-The game secion gives cute sassy answers by referencing the user name.
-It serves the purpose of entertainment.
+The game section gives cute sassy answers by referencing the user name previously given.
+It validates when the user inputs a question. If no question is written in the box, it does ask for an input, otherwise no answer is given. The game serves the purpose of entertainment. 
 
 ![Feature Three](assets/images/featureThree.jpg)
 
