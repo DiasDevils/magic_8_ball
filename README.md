@@ -43,11 +43,15 @@ Since the game actually looked ok on all devices when resizing no media queries 
 
 # Testing
 
-The testing of HTML has been done using the validator.
+1. The testing of HTML has been done using the validator.
 ![Validation HTML](assets/images/Val1.png)
 
-The testing of CSS has also been done using the validator.
+2. The testing of CSS has also been done using the validator.
 ![Validation CSS](assets/images/Val2.png)
+
+3. The testing of accessibility.
+![Validation CSS](assets/images/LighthouseTest.png)
+
 
 # Bugs
 There were several bugs.
