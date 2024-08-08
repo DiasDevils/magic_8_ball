@@ -64,6 +64,9 @@ The other bug was encounterd when i was trying to hide the sections so that it w
 * Smiley Face https://favicon.io/emoji-favicons/winking-face/
 * Eight Ball https://icons8.com/icons/set/eight-ball
 * Image of the magic ball was created by Kelsy DeCosta using Microsoft Sweeftkey AI.
+* Validator HTML https://jigsaw.w3.org/css-validator/validator
+* Validator CSS https://validator.w3.org/
+
 
 ## Huge thank you to my Jedi mentor Richard Wells.
 Code ideas and suggestions by Richard Wells, particularly Welcome and Username Sections.
