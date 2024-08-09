@@ -69,5 +69,5 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    z-index: 1000; /* optional: ensures it's above other elements */
+    z-index: 1000;
 }
