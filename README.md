@@ -74,4 +74,7 @@ Thirdly, the warnings for javascript, seems that the code is not accessible for 
 
 ## Huge thank you to my Jedi mentor Richard Wells.
 Enhancement ideas and code suggestions by Richard Wells, particularly thankful for the guidance in the Welcome and Username Sections.
-Other sections of code come from open source or code how to googling.
+Other sections of code come from open source or code how to googling and
+W3Schools at link: https://www.w3schools.com/ .
+
+Thank you.
