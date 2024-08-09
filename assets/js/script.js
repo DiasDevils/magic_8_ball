@@ -1,3 +1,7 @@
+/* jshint esversion: 6 */
+/* jshint moz: true */
+
+
 /* getting the containers */
 const welcomeContainer = document.getElementById('welcomeContainer');
 const nameContainer = document.getElementById('nameContainer');
