@@ -14,11 +14,13 @@ const nameInput = document.getElementById('username');
 /* declaring the var to store username */
 let username;
 
+/* event for click from welcome to name */
 welcomeButton.addEventListener('click', function () {
     welcomeContainer.classList.add('hide');
     nameContainer.classList.remove('hide');
 });
 
+/* event for click from error name to game*/
 nameButton.addEventListener('click', function () {
     nameError.classList.add('hide');
 
