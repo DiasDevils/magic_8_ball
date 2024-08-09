@@ -14,7 +14,7 @@ My design of this game really stems from my interest in fortune telling. It pave
 
 The welcome section gives insturctions in case someone is unfamiliar with the Magic 8 ball game. Then once the user presses the next button it moves along to the next section. 
 
-![Feature One](assets/images/fewatureOne.jpg)
+![Feature One](assets/images/featureOne.jpg)
 
 2. An input name section.
 
@@ -33,26 +33,26 @@ It validates when the user inputs a question. If no question is written in the b
 
 Since the game actually looked ok on all devices when resizing no media queries were needed.
 
-![Computer Size](assets/images/Weclome_Computer.jpg)
-![Computer Size](assets/images/Username_Computer.jpg)
-![Computer Size](assets/images/Question_Computer.jpg)
+![Computer Size](assets/images/weclomeComputer.jpg)
+![Computer Size](assets/images/usernameComputer.jpg)
+![Computer Size](assets/images/questionComputer.jpg)
 
 ## Look in Notepad Size
-![Notepad Size](assets/images/Notepad_Size.jpg)
+![Notepad Size](assets/images/notepadSize.jpg)
 
 ## Look in Mobile Size
-![Mobile Size](assets/images/Mobile_Size.jpg)
+![Mobile Size](assets/images/mobileSize.jpg)
 
 # Testing
 
 1. The testing of HTML has been done using the validator.
-![Validation HTML](assets/images/Val1.png)
+![Validation HTML](assets/images/val1.png)
 
 2. The testing of CSS has also been done using the validator.
-![Validation CSS](assets/images/Val2.png)
+![Validation CSS](assets/images/val2.png)
 
 3. The testing of accessibility.
-![Validation CSS](assets/images/LighthouseTest.png)
+![Validation CSS](assets/images/lighthouseTest.png)
 
 
 # Bugs
