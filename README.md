@@ -61,7 +61,7 @@ Since the game actually looked ok on all devices when resizing no media queries 
 There were several bugs.
 One, the user did not have to initialy write a question. If the ask button was clicked answers were provided without a qustion input.
 The second bug was encounterd when i was trying to hide the sections so that it would move swiftly along to the next section i.e. from welcome to name to game sections. The next button was not working. The issue was I had named the container the same instead of the next container name so that it would move to the next section.
-Thirdly, the warnings for javascript, seems that the code is not accessible for all the es versions as per javascript validator. 
+Thirdly, the warnings for javascript, seems that the code is not accessible for all the es versions as per javascript validator. Added comments  /* jshint esversion: 6 */ and /* jshint moz: true */ and run through the validator again and the warnings disappeared.
 
 
 # References
