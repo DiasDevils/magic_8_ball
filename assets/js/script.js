@@ -31,7 +31,7 @@ nameButton.addEventListener('click', function () {
     } else {
         nameError.classList.remove('hide');
     }
-})
+});
 
 
 /* game function */
