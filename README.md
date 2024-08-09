@@ -54,6 +54,8 @@ Since the game actually looked ok on all devices when resizing no media queries 
 3. The testing of accessibility.
 ![Validation CSS](assets/images/lighthouseTest.png)
 
+4. The testing of javascript through validator.
+![Validation JS](assets/images/validatorJs.png)
 
 # Bugs
 There were several bugs.
