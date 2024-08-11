@@ -14,7 +14,7 @@ My design of this game really stems from my interest in fortune telling. It pave
 
 The welcome section gives insturctions in case someone is unfamiliar with the Magic 8 ball game. Then once the user presses the next button it moves along to the next section. 
 
-![Feature One](assets/images/featureOne.jpg)
+![Feature One](assets/images/newInstruction.jpg)
 
 2. An input name section.
 
