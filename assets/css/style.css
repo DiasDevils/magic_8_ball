@@ -88,5 +88,8 @@ footer {
 }
 #inst {
     margin:0;
-    color:orange;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(5, 81, 243);
 }
