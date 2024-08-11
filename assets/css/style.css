@@ -49,7 +49,7 @@ button:hover {
     margin-top: 30px;
     font-size: 1.2em;
     color: white;
-    background-color: rgb(13, 2, 74);
+    /* background-color: rgb(13, 2, 74); */
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
