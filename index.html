@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Heading -->
+<!-- HEAD-->
 
 <head>
     <meta charset="UTF-8">
@@ -16,17 +16,21 @@
     <link rel="icon" type="image/png" href="assets/images/icons8.png" alt="A grey ball with a number eight in it">
 </head>
 
+<!--MAIN -->
 
 <body>
     <!--Welcome Instructions-->
     <div id="welcomeContainer" class="container">
         <h1>Welcome to the Magic 8 Ball Game!!!</h1>
-        <h3>Instructions</h3>
-        <p>1. Think of a question you want a Yes or No answer to</p>
+        <h3 id="inst">Instructions</h3>
+        <div id="firstp">
+        <p>1. Think of a question you want a <span id="special">Yes</span> or <span id="special">No</span> answer to</p>
         <p>2. Ask the question by writing it in the box provided</p>
         <p>3. Click the ask button</p>
-        <p>And Voila. Presto. Eazey Peazey Lemon Squeezey</p>
+        </div>
+        <!-- <p>And Voila. Presto. Eazey Peazey Lemon Squeezey</p> -->
         <button id="welcomeButton">Next</button>
+        
     </div>
 
     <!--Getting user name for personalisation-->
@@ -52,6 +56,7 @@
         </div>
     </div>
 
+    <!--FOOTER-->
     <footer>
         <div>Created by Dia LeDesma</div>
     </footer>

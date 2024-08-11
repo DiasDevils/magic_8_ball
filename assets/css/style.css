@@ -72,3 +72,21 @@ footer {
     padding: 10px 0;
     z-index: 1000;
 }
+
+#firstp {
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 20px; 
+    /* box-shadow: 0 4px 10px rgba(247, 227, 227, 0.2);  */
+    padding: 10px;
+}
+#welcomeButton {
+    margin: 10px;
+}
+#special{
+    font-weight: bolder;
+    font-size: x-large;
+}
+#inst {
+    margin:0;
+    color:orange;
+}
