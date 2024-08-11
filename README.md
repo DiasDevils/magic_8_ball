@@ -20,7 +20,7 @@ The welcome section gives insturctions in case someone is unfamiliar with the Ma
 
 This second section asks the user to input their name. This feature makes the game more personalised for a warmer experience. It also validates there is a name provided so it does expect a user input.
 
-![Feature Two](assets/images/featureTwo.jpg)
+![Feature Two](assets/images/nameFeature.png)
 
 3. And lastly the game section.
 
