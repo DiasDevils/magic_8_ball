@@ -33,7 +33,7 @@ It validates when the user inputs a question. If no question is written in the b
 
 Since the game actually looked ok on all devices when resizing no media queries were needed.
 
-![Computer Size](assets/images/weclomeComputer.jpg)
+![Computer Size](assets/images/newDesktop.jpg)
 ![Computer Size](assets/images/usernameComputer.jpg)
 ![Computer Size](assets/images/questionComputer.jpg)
 
