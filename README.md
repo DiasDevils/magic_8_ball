@@ -58,6 +58,7 @@ Since the game actually looked ok on all devices when resizing no media queries 
 
 4. The testing of javascript through validator.
 ![Validation JS](assets/images/validatorJs.png)
+![No more Errors JS](assets/images/javascript.png)
 
 5. I also visted the webiste from my phone and my mothers phone. I requested friends to visit the site and play with it to manually test and have some users actually play the game.
 
