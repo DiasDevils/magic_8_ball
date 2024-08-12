@@ -65,17 +65,25 @@ Since the game actually looked ok on all devices when resizing no media queries 
 There were several bugs.
 
 1- *Issue*: The user did not have to initialy write a question. 
+
    *Cause*: If the ask button was clicked answers were provided without a qustion input.
+
    *Resolution*: Made a validation that checked for input. If input empty, an error message shows, otherwise the game continues.
 
 2.- The second bug was encounterd when I was trying to hide the sections so that it would move swiftly along to the next section i.e. from welcome to name to game sections.
+
     *Issue*: The next button was not working. 
+
     *Cause*: I had named the container the same instead of the next container name so that it would move to the next section.
+
     *Resolution*: Renamed the container name instead of welcome.
 
 3- Lastly, the warnings for javascript, where it appeared that the code was not accessible for all the es versions as per javascript validator. 
+
    *Issue*: Code not runable on old versions.
+
    *Cause*: Incompatability and updates.
+   
    *Resolution*: Clicked on diganostic and enabled for runability on older versions.
 
 
