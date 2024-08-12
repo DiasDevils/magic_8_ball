@@ -6,6 +6,8 @@
 The 8 ball game is an entertainment website. 
 It is there as a passtime game to ask a yes or no question and receive a yes or no answer.
 
+![Responsive](assets/images/responsive.png)
+
 # Design 
 My design of this game really stems from my interest in fortune telling. It paves the way for designing a more complex website of tarot card reading in future. The background is very suiting of a crystal ball dark and mystic and the game of the 8 ball is world famous. It is entertaining and there are crowds that love fortune telling.
 
