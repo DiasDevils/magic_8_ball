@@ -63,6 +63,7 @@ Since the game actually looked ok on all devices when resizing no media queries 
 
 # Bugs
 There were several bugs.
+
 1- *Issue*: The user did not have to initialy write a question. 
    *Cause*: If the ask button was clicked answers were provided without a qustion input.
    *Resolution*: Made a validation that checked for input. If input empty, an error message shows, otherwise the game continues.
